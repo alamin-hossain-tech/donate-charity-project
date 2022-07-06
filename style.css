@@ -361,6 +361,10 @@ flex: 1;
   font-family: "Poppins";
   font-size: 18px;
 }
+.footer-section img {
+  width: 160px;
+  margin-bottom: 10px;
+}
 
 .social-icon {
   display: flex;
