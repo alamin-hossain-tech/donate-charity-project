@@ -1,0 +1,353 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+/* Hero section styles */
+.hero-container {
+  min-height: 100vh;
+
+  background-image: url("img/hero-bg.jpg");
+  background-size: cover;
+  background-position: bottom center;
+  background-repeat: no-repeat;
+}
+.overlay {
+  background: linear-gradient(180deg, rgb(18 18 18 / 0%), rgba(18, 18, 18, 1));
+
+  overflow: hidden;
+  height: 100vh;
+  /* opacity: ; */
+}
+
+.hero-content {
+  max-width: 1200px;
+  margin: 0px auto;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+  justify-content: center;
+  gap: 32px;
+}
+
+.primary-header {
+  font-family: "Inter", sans-serif;
+  font-size: 72px;
+  font-weight: bold;
+  color: #fff;
+  line-height: 1.2;
+}
+
+.hero-description {
+  font-family: "Poppins";
+  font-size: 18px;
+  font-weight: normal;
+  line-height: 28px;
+  width: 900px;
+  color: #fff;
+}
+
+.button-cta {
+  font-family: "Inter";
+  font-weight: 600;
+  font-size: 20px;
+  color: #fff;
+  display: inline-block;
+  background-color: #ff5959;
+  border-radius: 5px;
+  text-decoration: none;
+  padding: 15px 20px;
+  margin-top: 32px;
+}
+
+/* Donate section styles */
+
+.donate-section {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 140px 0px;
+  text-align: center;
+}
+.secondery-heading {
+  font-family: "Inter";
+  font-size: 45px;
+  font-weight: 700;
+  margin-bottom: 32px;
+}
+.donate-description {
+  font-family: "Poppins";
+  font-size: 18px;
+  font-weight: normal;
+  line-height: 28px;
+  width: 900px;
+  margin: 0px auto 64px auto;
+  text-align: center;
+}
+.donate-box {
+  display: flex;
+  column-gap: 40px;
+  align-items: center;
+  justify-content: center;
+}
+.donate-box-item {
+  width: 165px;
+  height: 145px;
+  background-color: #f4f4f4;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  border-radius: 5px;
+}
+#highlight {
+  box-shadow: 0px 0px 0px 2px #ff5959 inset;
+  background-color: #ffeeee;
+}
+h3 {
+  font-family: "Inter";
+  font-size: 30px;
+  font-weight: 700;
+  color: #707070;
+}
+#highlight h3 {
+  color: #ff5959;
+}
+
+.donate-form {
+  width: 980px;
+  margin: 0 auto;
+  margin-top: 32px;
+  padding: 32px 0px;
+}
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+.donate-input {
+  border: 0;
+  border-bottom: 1px solid #dadada;
+  text-align: center;
+  height: 40px;
+  font-size: 18px;
+  font-family: "Poppins";
+}
+
+textarea:focus,
+input:focus {
+  outline: none;
+}
+::placeholder {
+  color: #b3b3b3;
+}
+.submit {
+  border: 0;
+  width: 20%;
+  margin: 0 auto;
+}
+
+/* Donate plan styles */
+
+.donate-plan-section {
+  max-width: 1400px;
+  margin: 0 auto;
+  padding-bottom: 140px;
+  text-align: center;
+}
+
+.donate-plan-description {
+  font-family: "Poppins";
+  font-size: 18px;
+  font-weight: normal;
+  line-height: 28px;
+  width: 900px;
+  margin: 0px auto 64px auto;
+  text-align: center;
+}
+
+.donate-plan-box {
+  display: flex;
+  align-items: center;
+  column-gap: 32px;
+  justify-content: center;
+}
+
+.donate-plan-box-item {
+  background-color: #f4f4f4;
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  border-radius: 5px;
+  text-align: left;
+  padding: 60px 40px;
+}
+
+.donate-plan-box-item img {
+  width: 15%;
+  height: auto;
+}
+
+.donate-plan-box-item h4 {
+  font-family: "Poppins";
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.donate-plan-box-item p {
+  font-family: "Poppins";
+  font-size: 18px;
+}
+
+#plan-box-one {
+  background-color: rgba(79, 157, 166, 0.1);
+}
+
+#plan-box-two {
+  background-color: rgba(255, 89, 89, 0.1);
+}
+
+#plan-box-three {
+  background-color: #fff4d6;
+}
+
+/* Testimonial Section style  */
+
+.testimonial-section {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding-bottom: 140px;
+  text-align: center;
+  margin-top: 30px;
+}
+
+.testimonial-description {
+  font-family: "Poppins";
+  font-size: 18px;
+  font-weight: normal;
+  line-height: 28px;
+  width: 900px;
+  margin: 0px auto 64px auto;
+  text-align: center;
+}
+
+.testimonial-box {
+  display: flex;
+  column-gap: 18px;
+}
+
+.testimonial-box-item {
+  width: 50%;
+  background-color: #f4f4f4;
+  padding: 60px 40px;
+  border-radius: 5px;
+  /* .testimonial-box> *{
+flex: 1;
+} */
+}
+.testimonial-box-item h4 {
+  font-family: "Poppins";
+  font-size: 16px;
+  font-weight: 600;
+  /* font-style: italic; */
+}
+.testimonial-box-item p {
+  font-family: "Poppins";
+  font-size: 14px;
+}
+.testimonial-box-item span {
+  font-family: "Poppins";
+  font-size: 32px;
+  font-weight: 700;
+  color: #707070;
+}
+.testimonial-img {
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  margin-top: 32px;
+}
+
+.quote {
+  width: 48px;
+  height: auto;
+}
+
+.testimonial-nav {
+  margin-top: 24px;
+  display: flex;
+  column-gap: 5px;
+  align-items: center;
+  justify-content: center;
+}
+
+.dot {
+  width: 8px;
+  height: 8px;
+  border: 2px solid #ff5959;
+  border-radius: 50%;
+}
+
+.dot-fill {
+  background-color: #ff5959;
+}
+
+/* get updates section style  */
+
+.get-update-section {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding-bottom: 140px;
+  text-align: center;
+  margin-top: 30px;
+}
+
+.get-update-description {
+  font-family: "Poppins";
+  font-size: 18px;
+  font-weight: normal;
+  line-height: 28px;
+  width: 900px;
+  margin: 0px auto 64px auto;
+  text-align: center;
+}
+.get-update-box {
+  background-color: #fff4d6;
+  padding: 100px 50px;
+  max-width: 950px;
+  margin: 0 auto;
+}
+.input-box {
+  display: flex;
+  align-items: center;
+  width: 60%;
+  margin: 0 auto;
+}
+.button {
+  height: 60px;
+  border: none;
+}
+
+#email {
+  width: 65%;
+  background: #d9d9d9;
+  font-family: "Inter";
+  font-weight: 600;
+  font-size: 20px;
+  letter-spacing: 1px;
+  text-indent: 5%;
+  border-radius: 5px 0 0 5px;
+}
+
+#submit {
+  width: 35%;
+  height: 60px;
+  background: #ff5959;
+  font-family: "Inter";
+  font-weight: 600;
+  font-size: 20px;
+  color: #fff;
+  border-radius: 0 5px 5px 0;
+  cursor: pointer;
+  transition: background 0.3s ease-in-out;
+}
